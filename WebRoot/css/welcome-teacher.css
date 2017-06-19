@@ -1,0 +1,254 @@
+@CHARSET "UTF-8";
+:focus {
+    outline: 0;
+}
+
+body {
+    margin: 0px;
+    font-size: 12px;
+    background-image: url(../images/nonote.png);
+    background-size: cover;
+
+    font-family: 微软雅黑;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.myhead {
+    background: inherit;
+    position: relative;
+    border-radius: 10px;
+    padding-right: 10px;
+    border: 1px solid #A5A097;
+}
+
+.myhead::after {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0.6;
+    left: 0;
+}
+
+.myleft {
+    background: inherit;
+    position: relative;
+    border-radius: 10px;
+    padding-right: 8px;
+    border: 1px solid #A5A097;
+}
+
+.myleft::after {
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-color: #fff;
+    z-index: -1;
+    opacity: 0.6;
+    left: 0;
+}
+
+.box {
+    font-size: 19px;
+    border-radius: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 1px solid #7F8585;
+    width: 220px;
+    height: 35px;
+    background-color: #D2D6D6;
+
+}
+
+.logo {
+    margin-left: 30px;
+    margin-top: -2px;
+}
+
+.div-left {
+    margin-top: 200px;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    padding-top: 1px;
+}
+
+.btn {
+    width: 140px;
+    color: #414747;
+    font-size: 16px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid #7F8585 1px;
+    background: #D4D8D8;
+    margin-top: 17px;
+}
+
+
+.btn:hover {
+    background: #DBDFDF;
+}
+
+.red-btn {
+    width: 140px;
+    color: #414747;
+    font-size: 16px;
+    padding: 7px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid #7F8585 1px;
+    background: #DBDFDF;
+    margin-top: 17px;
+}
+
+.red-btn:hover {
+    color: #ffffff;
+    background: red;
+}
+
+.btn2 {
+    font-weight: 600;
+    color: #484E4E;
+    font-size: 18px;
+    padding: 7px;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: inherit;
+    border: hidden #7F8585 1px;
+    margin-bottom: 40px;
+}
+
+.btn2:hover {
+    background: #D4D8D8;
+}
+
+.xie {
+    color: #484E4E;
+    font-size: 18px;
+}
+
+.timeinfo {
+    font-weight: 500;
+    color: #51604B;
+    font-size: 15px;
+    float: left;
+    width: 100%;
+    margin-left: -30px;
+    margin-top: -8px;
+    text-align: right;
+}
+
+.timeinfo2 {
+    font-weight: 500;
+    color: red;
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    margin-left: -50px;
+    margin-top: 16px;
+    text-align: right;
+}
+
+.timeinfo3 {
+    margin-left: -15px;
+    font-weight: 500;
+    color: #51604B;
+    font-size: 16px;
+    float: left;
+    width: 100%;
+    text-align: right;
+}
+
+.sessionInfo {
+    font-weight: 500;
+    color: red;
+    font-size: 11px;
+    float: left;
+    width: 100%;
+    margin-left: -30px;
+    margin-top: -10px;
+    text-align: right;
+}
+
+#footer-center {
+    margin-bottom: 25px;
+    position: fixed;
+    bottom: 0;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    background: inherit;
+    color: #414747;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#footer-right {
+    margin-bottom: 26px;
+    margin-left: 380px;
+    position: fixed;
+    bottom: 0;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+    background: inherit;
+    color: #414747;
+    font-size: 12px;
+}
+
+.shsh {
+    width: 20px;
+    margin: 0 auto;
+    line-height: 8px;
+    font-size: 8px;
+}
+
+.north-left {
+    left: 0px;
+    width: 280px;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    top: 0px;
+
+
+}
+
+.north-center {
+    margin-top: 32px;
+    text-align: center;
+    padding-left: 150px;
+    background-color: inherit;
+    height: 70px;
+}
+
+.north-right {
+    right: 0px;
+    width: 120px;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    top: 0px;
+    padding-right: 14px;
+}
