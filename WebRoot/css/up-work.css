@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 body {
     font-size: 12px;
-    background: #EEF0F0;
+    /*background: #EEF0F0;*/
     font-family: 微软雅黑;
 }
 
@@ -75,9 +75,13 @@ a {
 }
 
 .div-reg {
+    position:absolute;
     border-radius: 0px;
     padding: 10px;
     overflow: hidden;
+    top:30%;
+    left:50%;
+    margin:-160px auto auto -180px;
 }
 
 .div-btn {
