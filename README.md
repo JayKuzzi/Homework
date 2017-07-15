@@ -3,7 +3,7 @@
 # 测试链接
 123.207.216.171
 # APP演示截图
-![image](https://github.com/JayKuzzi/OfferAPP/blob/master/app/appshot/111.jpg)
+![image](https://github.com/JayKuzzi/Homework/blob/master/shot/1.jpg)
 
 ## 简介
 随着现在互联网的不断普及，我们的社会渐渐全方位的进入了信息化社会。校园内也不例外，学生们都倾向于足不出宿舍的使用网络平台来交作业。因为网络作业管理工作室不仅解决了出行的时间和人力成本，更主要的是现在作业管理系统的不断完善，不管是老师批改作业，还是学生交作业，其实现的效果已经不亚于现实中交作业了。
